@@ -1,0 +1,86 @@
+[
+  {
+    "intents": [
+      "return",
+      "exchange"
+    ],
+    "summary": [
+      "There is a 30-day return or exchange policy.",
+      "Items must be unworn with tags attached.",
+      "Returns require the original packaging.",
+      "A valid proof of purchase is needed."
+    ]
+  },
+  {
+    "intents": [
+      "return",
+      "refund"
+    ],
+    "summary": [
+      "Contact the chatbot with order details.",
+      "The chatbot will generate a Return Authorization (RA) number.",
+      "Pack the item securely and include the RA number.",
+      "Ship the package using a trackable method.",
+      "Refunds will be processed within 7-10 business days."
+    ]
+  },
+  {
+    "intents": [
+      "exchange",
+      "return"
+    ],
+    "summary": [
+      "Customers can exchange items for different sizes, colors, or styles.",
+      "Follow the return process outlined above using the chatbot.",
+      "Place a new order for the desired item.",
+      "Refunds for returned items will be issued separately after inspection."
+    ]
+  },
+  {
+    "intents": [
+      "return",
+      "exchange"
+    ],
+    "summary": [
+      "Items marked as 'Final Sale' cannot be returned or exchanged.",
+      "Gift cards are not eligible for return or exchange.",
+      "Personalized or custom-made items are not returnable or exchangeable.",
+      "Used or damaged items (except those with manufacturer defects) are not returnable or exchangeable."
+    ]
+  },
+  {
+    "intents": [
+      "refund",
+      "shipping"
+    ],
+    "summary": [
+      "Refunds will be issued to the original payment method.",
+      "Shipping costs are non-refundable unless the return is due to a manufacturing defect or an error on our part.",
+      "If the original payment method is no longer available, store credit will be issued."
+    ]
+  },
+  {
+    "intents": [
+      "damaged item",
+      "refund",
+      "replacement"
+    ],
+    "summary": [
+      "Damaged or defective items can be reported within 7 days of delivery.",
+      "Photos of the damage are required when reporting the issue.",
+      "A replacement will be sent free of charge or a full refund will be issued.",
+      "The company may request the return of the damaged item before issuing a refund or replacement."
+    ]
+  },
+  {
+    "intents": [
+      "payment",
+      "refund"
+    ],
+    "summary": [
+      "We accept major credit/debit cards, PayPal, and other payment methods.",
+      "Orders are charged at the time of purchase.",
+      "Refunds are credited back to the original payment method within 7-10 business days."
+    ]
+  }
+]
