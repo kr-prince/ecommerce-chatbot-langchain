@@ -12,7 +12,7 @@ POLICY_DOCS_JSON_DIR: str = "./data/policy_docs"
 ORDERS_TABLE_NAME: str = "orders"
 UNIQUE_ID_COLUMN: str = "order_id"
 POLICY_TABLE_NAME: str = "policy_processed"
-SLEEP_TIME: int = 10
+SLEEP_TIME: int = 3600   # 1 hour in seconds
 
 # MODEL CONFIGURATIONS
 POLICY_PARSING_MODEL_NAME: str = "gemma2-9b-it"
